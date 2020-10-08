@@ -1,0 +1,190 @@
+(?<host>\S*) (?<clock>{.*})\n(?<event>.*)
+
+Master {"Master":1}
+Initialization Complete
+Master {"Master":2}
+sending master time
+Master {"Master":3, "slave@127.0.0.1:6666":3}
+time diff received
+Master {"slave@127.0.0.1:6666":3, "Master":4}
+sending master time
+Master {"Master":5, "slave@127.0.0.1:6666":3, "slave@127.0.0.1:7777":3}
+time diff received
+Master {"Master":6, "slave@127.0.0.1:6666":3, "slave@127.0.0.1:7777":3}
+sending master time
+Master {"slave@127.0.0.1:6666":3, "slave@127.0.0.1:7777":3, "slave@127.0.0.1:8888":3, "Master":7}
+time diff received
+Master {"Master":8, "slave@127.0.0.1:6666":3, "slave@127.0.0.1:7777":3, "slave@127.0.0.1:8888":3}
+sending correction
+Master {"Master":9, "slave@127.0.0.1:6666":3, "slave@127.0.0.1:7777":3, "slave@127.0.0.1:8888":3}
+sending correction
+Master {"Master":10, "slave@127.0.0.1:6666":3, "slave@127.0.0.1:7777":3, "slave@127.0.0.1:8888":3}
+sending correction
+Master {"slave@127.0.0.1:7777":3, "slave@127.0.0.1:8888":3, "Master":11, "slave@127.0.0.1:6666":3}
+sending master time
+Master {"slave@127.0.0.1:6666":6, "slave@127.0.0.1:7777":3, "slave@127.0.0.1:8888":3, "Master":12}
+time diff received
+Master {"Master":13, "slave@127.0.0.1:6666":6, "slave@127.0.0.1:7777":3, "slave@127.0.0.1:8888":3}
+sending master time
+Master {"slave@127.0.0.1:6666":6, "slave@127.0.0.1:7777":6, "slave@127.0.0.1:8888":3, "Master":14}
+time diff received
+Master {"Master":15, "slave@127.0.0.1:6666":6, "slave@127.0.0.1:7777":6, "slave@127.0.0.1:8888":3}
+sending master time
+Master {"Master":16, "slave@127.0.0.1:6666":6, "slave@127.0.0.1:7777":6, "slave@127.0.0.1:8888":6}
+time diff received
+Master {"slave@127.0.0.1:6666":6, "slave@127.0.0.1:7777":6, "slave@127.0.0.1:8888":6, "Master":17}
+sending correction
+Master {"slave@127.0.0.1:6666":6, "slave@127.0.0.1:7777":6, "slave@127.0.0.1:8888":6, "Master":18}
+sending correction
+Master {"Master":19, "slave@127.0.0.1:6666":6, "slave@127.0.0.1:7777":6, "slave@127.0.0.1:8888":6}
+sending correction
+Master {"slave@127.0.0.1:6666":6, "slave@127.0.0.1:7777":6, "slave@127.0.0.1:8888":6, "Master":20}
+sending master time
+Master {"Master":21, "slave@127.0.0.1:6666":9, "slave@127.0.0.1:7777":6, "slave@127.0.0.1:8888":6}
+time diff received
+Master {"slave@127.0.0.1:8888":6, "Master":22, "slave@127.0.0.1:6666":9, "slave@127.0.0.1:7777":6}
+sending master time
+Master {"Master":23, "slave@127.0.0.1:6666":9, "slave@127.0.0.1:7777":9, "slave@127.0.0.1:8888":6}
+time diff received
+Master {"Master":24, "slave@127.0.0.1:6666":9, "slave@127.0.0.1:7777":9, "slave@127.0.0.1:8888":6}
+sending master time
+Master {"Master":25, "slave@127.0.0.1:6666":9, "slave@127.0.0.1:7777":9, "slave@127.0.0.1:8888":9}
+time diff received
+Master {"Master":26, "slave@127.0.0.1:6666":9, "slave@127.0.0.1:7777":9, "slave@127.0.0.1:8888":9}
+sending correction
+Master {"slave@127.0.0.1:6666":9, "slave@127.0.0.1:7777":9, "slave@127.0.0.1:8888":9, "Master":27}
+sending correction
+Master {"slave@127.0.0.1:8888":9, "Master":28, "slave@127.0.0.1:6666":9, "slave@127.0.0.1:7777":9}
+sending correction
+Master {"Master":29, "slave@127.0.0.1:6666":9, "slave@127.0.0.1:7777":9, "slave@127.0.0.1:8888":9}
+sending master time
+Master {"slave@127.0.0.1:6666":12, "slave@127.0.0.1:7777":9, "slave@127.0.0.1:8888":9, "Master":30}
+time diff received
+Master {"Master":31, "slave@127.0.0.1:6666":12, "slave@127.0.0.1:7777":9, "slave@127.0.0.1:8888":9}
+sending master time
+Master {"Master":32, "slave@127.0.0.1:6666":12, "slave@127.0.0.1:7777":12, "slave@127.0.0.1:8888":9}
+time diff received
+Master {"slave@127.0.0.1:7777":12, "slave@127.0.0.1:8888":9, "Master":33, "slave@127.0.0.1:6666":12}
+sending master time
+Master {"Master":34, "slave@127.0.0.1:6666":12, "slave@127.0.0.1:7777":12, "slave@127.0.0.1:8888":12}
+time diff received
+Master {"slave@127.0.0.1:6666":12, "slave@127.0.0.1:7777":12, "slave@127.0.0.1:8888":12, "Master":35}
+sending correction
+Master {"Master":36, "slave@127.0.0.1:6666":12, "slave@127.0.0.1:7777":12, "slave@127.0.0.1:8888":12}
+sending correction
+Master {"Master":37, "slave@127.0.0.1:6666":12, "slave@127.0.0.1:7777":12, "slave@127.0.0.1:8888":12}
+sending correction
+Master {"Master":38, "slave@127.0.0.1:6666":12, "slave@127.0.0.1:7777":12, "slave@127.0.0.1:8888":12}
+sending master time
+Master {"Master":39, "slave@127.0.0.1:6666":15, "slave@127.0.0.1:7777":12, "slave@127.0.0.1:8888":12}
+time diff received
+Master {"Master":40, "slave@127.0.0.1:6666":15, "slave@127.0.0.1:7777":12, "slave@127.0.0.1:8888":12}
+sending master time
+Master {"Master":41, "slave@127.0.0.1:6666":15, "slave@127.0.0.1:7777":15, "slave@127.0.0.1:8888":12}
+time diff received
+Master {"slave@127.0.0.1:6666":15, "slave@127.0.0.1:7777":15, "slave@127.0.0.1:8888":12, "Master":42}
+sending master time
+Master {"Master":43, "slave@127.0.0.1:6666":15, "slave@127.0.0.1:7777":15, "slave@127.0.0.1:8888":15}
+time diff received
+Master {"slave@127.0.0.1:6666":15, "slave@127.0.0.1:7777":15, "slave@127.0.0.1:8888":15, "Master":44}
+sending correction
+Master {"Master":45, "slave@127.0.0.1:6666":15, "slave@127.0.0.1:7777":15, "slave@127.0.0.1:8888":15}
+sending correction
+Master {"slave@127.0.0.1:6666":15, "slave@127.0.0.1:7777":15, "slave@127.0.0.1:8888":15, "Master":46}
+sending correction
+slave@127.0.0.1:6666 {"slave@127.0.0.1:6666":1}
+Initialization Complete
+slave@127.0.0.1:6666 {"slave@127.0.0.1:6666":2, "Master":2}
+time received from master
+slave@127.0.0.1:6666 {"slave@127.0.0.1:6666":3, "Master":2}
+time diff sent
+slave@127.0.0.1:6666 {"slave@127.0.0.1:6666":4, "Master":2}
+adjustment received from master
+slave@127.0.0.1:6666 {"slave@127.0.0.1:6666":5, "Master":2}
+time received from master
+slave@127.0.0.1:6666 {"slave@127.0.0.1:6666":6, "Master":2}
+time diff sent
+slave@127.0.0.1:6666 {"slave@127.0.0.1:6666":7, "Master":2}
+adjustment received from master
+slave@127.0.0.1:6666 {"slave@127.0.0.1:6666":8, "Master":2}
+time received from master
+slave@127.0.0.1:6666 {"slave@127.0.0.1:6666":9, "Master":2}
+time diff sent
+slave@127.0.0.1:6666 {"slave@127.0.0.1:6666":10, "Master":2}
+adjustment received from master
+slave@127.0.0.1:6666 {"slave@127.0.0.1:6666":11, "Master":2}
+time received from master
+slave@127.0.0.1:6666 {"slave@127.0.0.1:6666":12, "Master":2}
+time diff sent
+slave@127.0.0.1:6666 {"slave@127.0.0.1:6666":13, "Master":2}
+adjustment received from master
+slave@127.0.0.1:6666 {"slave@127.0.0.1:6666":14, "Master":2}
+time received from master
+slave@127.0.0.1:6666 {"slave@127.0.0.1:6666":15, "Master":2}
+time diff sent
+slave@127.0.0.1:6666 {"slave@127.0.0.1:6666":16, "Master":2}
+adjustment received from master
+slave@127.0.0.1:7777 {"slave@127.0.0.1:7777":1}
+Initialization Complete
+slave@127.0.0.1:7777 {"slave@127.0.0.1:6666":3, "Master":4, "slave@127.0.0.1:7777":2}
+time received from master
+slave@127.0.0.1:7777 {"slave@127.0.0.1:7777":3, "slave@127.0.0.1:6666":3, "Master":4}
+time diff sent
+slave@127.0.0.1:7777 {"slave@127.0.0.1:7777":4, "slave@127.0.0.1:6666":3, "Master":4}
+adjustment received from master
+slave@127.0.0.1:7777 {"slave@127.0.0.1:7777":5, "slave@127.0.0.1:6666":3, "Master":4}
+time received from master
+slave@127.0.0.1:7777 {"slave@127.0.0.1:6666":3, "Master":4, "slave@127.0.0.1:7777":6}
+time diff sent
+slave@127.0.0.1:7777 {"Master":4, "slave@127.0.0.1:7777":7, "slave@127.0.0.1:6666":3}
+adjustment received from master
+slave@127.0.0.1:7777 {"slave@127.0.0.1:6666":3, "Master":4, "slave@127.0.0.1:7777":8}
+time received from master
+slave@127.0.0.1:7777 {"slave@127.0.0.1:7777":9, "slave@127.0.0.1:6666":3, "Master":4}
+time diff sent
+slave@127.0.0.1:7777 {"slave@127.0.0.1:6666":3, "Master":4, "slave@127.0.0.1:7777":10}
+adjustment received from master
+slave@127.0.0.1:7777 {"slave@127.0.0.1:6666":3, "Master":4, "slave@127.0.0.1:7777":11}
+time received from master
+slave@127.0.0.1:7777 {"slave@127.0.0.1:7777":12, "slave@127.0.0.1:6666":3, "Master":4}
+time diff sent
+slave@127.0.0.1:7777 {"slave@127.0.0.1:7777":13, "slave@127.0.0.1:6666":3, "Master":4}
+adjustment received from master
+slave@127.0.0.1:7777 {"slave@127.0.0.1:6666":3, "Master":4, "slave@127.0.0.1:7777":14}
+time received from master
+slave@127.0.0.1:7777 {"slave@127.0.0.1:7777":15, "slave@127.0.0.1:6666":3, "Master":4}
+time diff sent
+slave@127.0.0.1:7777 {"slave@127.0.0.1:7777":16, "slave@127.0.0.1:6666":3, "Master":4}
+adjustment received from master
+slave@127.0.0.1:8888 {"slave@127.0.0.1:8888":1}
+Initialization Complete
+slave@127.0.0.1:8888 {"slave@127.0.0.1:8888":2, "Master":6, "slave@127.0.0.1:6666":3, "slave@127.0.0.1:7777":3}
+time received from master
+slave@127.0.0.1:8888 {"slave@127.0.0.1:8888":3, "Master":6, "slave@127.0.0.1:6666":3, "slave@127.0.0.1:7777":3}
+time diff sent
+slave@127.0.0.1:8888 {"slave@127.0.0.1:8888":4, "Master":10, "slave@127.0.0.1:6666":3, "slave@127.0.0.1:7777":3}
+adjustment received from master
+slave@127.0.0.1:8888 {"slave@127.0.0.1:8888":5, "Master":15, "slave@127.0.0.1:6666":6, "slave@127.0.0.1:7777":6}
+time received from master
+slave@127.0.0.1:8888 {"slave@127.0.0.1:8888":6, "Master":15, "slave@127.0.0.1:6666":6, "slave@127.0.0.1:7777":6}
+time diff sent
+slave@127.0.0.1:8888 {"slave@127.0.0.1:8888":7, "Master":19, "slave@127.0.0.1:6666":6, "slave@127.0.0.1:7777":6}
+adjustment received from master
+slave@127.0.0.1:8888 {"slave@127.0.0.1:6666":9, "slave@127.0.0.1:7777":9, "slave@127.0.0.1:8888":8, "Master":24}
+time received from master
+slave@127.0.0.1:8888 {"slave@127.0.0.1:8888":9, "Master":24, "slave@127.0.0.1:6666":9, "slave@127.0.0.1:7777":9}
+time diff sent
+slave@127.0.0.1:8888 {"slave@127.0.0.1:8888":10, "Master":28, "slave@127.0.0.1:6666":9, "slave@127.0.0.1:7777":9}
+adjustment received from master
+slave@127.0.0.1:8888 {"slave@127.0.0.1:6666":12, "slave@127.0.0.1:7777":12, "slave@127.0.0.1:8888":11, "Master":33}
+time received from master
+slave@127.0.0.1:8888 {"slave@127.0.0.1:8888":12, "Master":33, "slave@127.0.0.1:6666":12, "slave@127.0.0.1:7777":12}
+time diff sent
+slave@127.0.0.1:8888 {"slave@127.0.0.1:8888":13, "Master":37, "slave@127.0.0.1:6666":12, "slave@127.0.0.1:7777":12}
+adjustment received from master
+slave@127.0.0.1:8888 {"Master":42, "slave@127.0.0.1:6666":15, "slave@127.0.0.1:7777":15, "slave@127.0.0.1:8888":14}
+time received from master
+slave@127.0.0.1:8888 {"slave@127.0.0.1:8888":15, "Master":42, "slave@127.0.0.1:6666":15, "slave@127.0.0.1:7777":15}
+time diff sent
+slave@127.0.0.1:8888 {"Master":45, "slave@127.0.0.1:6666":15, "slave@127.0.0.1:7777":15, "slave@127.0.0.1:8888":16}
+adjustment received from master

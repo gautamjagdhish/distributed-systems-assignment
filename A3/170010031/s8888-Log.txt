@@ -1,0 +1,32 @@
+slave@127.0.0.1:8888 {"slave@127.0.0.1:8888":1}
+Initialization Complete
+slave@127.0.0.1:8888 {"slave@127.0.0.1:8888":2, "Master":6, "slave@127.0.0.1:6666":3, "slave@127.0.0.1:7777":3}
+time received from master
+slave@127.0.0.1:8888 {"slave@127.0.0.1:8888":3, "Master":6, "slave@127.0.0.1:6666":3, "slave@127.0.0.1:7777":3}
+time diff sent
+slave@127.0.0.1:8888 {"slave@127.0.0.1:8888":4, "Master":10, "slave@127.0.0.1:6666":3, "slave@127.0.0.1:7777":3}
+adjustment received from master
+slave@127.0.0.1:8888 {"slave@127.0.0.1:8888":5, "Master":15, "slave@127.0.0.1:6666":6, "slave@127.0.0.1:7777":6}
+time received from master
+slave@127.0.0.1:8888 {"slave@127.0.0.1:8888":6, "Master":15, "slave@127.0.0.1:6666":6, "slave@127.0.0.1:7777":6}
+time diff sent
+slave@127.0.0.1:8888 {"slave@127.0.0.1:8888":7, "Master":19, "slave@127.0.0.1:6666":6, "slave@127.0.0.1:7777":6}
+adjustment received from master
+slave@127.0.0.1:8888 {"slave@127.0.0.1:6666":9, "slave@127.0.0.1:7777":9, "slave@127.0.0.1:8888":8, "Master":24}
+time received from master
+slave@127.0.0.1:8888 {"slave@127.0.0.1:8888":9, "Master":24, "slave@127.0.0.1:6666":9, "slave@127.0.0.1:7777":9}
+time diff sent
+slave@127.0.0.1:8888 {"slave@127.0.0.1:8888":10, "Master":28, "slave@127.0.0.1:6666":9, "slave@127.0.0.1:7777":9}
+adjustment received from master
+slave@127.0.0.1:8888 {"slave@127.0.0.1:6666":12, "slave@127.0.0.1:7777":12, "slave@127.0.0.1:8888":11, "Master":33}
+time received from master
+slave@127.0.0.1:8888 {"slave@127.0.0.1:8888":12, "Master":33, "slave@127.0.0.1:6666":12, "slave@127.0.0.1:7777":12}
+time diff sent
+slave@127.0.0.1:8888 {"slave@127.0.0.1:8888":13, "Master":37, "slave@127.0.0.1:6666":12, "slave@127.0.0.1:7777":12}
+adjustment received from master
+slave@127.0.0.1:8888 {"Master":42, "slave@127.0.0.1:6666":15, "slave@127.0.0.1:7777":15, "slave@127.0.0.1:8888":14}
+time received from master
+slave@127.0.0.1:8888 {"slave@127.0.0.1:8888":15, "Master":42, "slave@127.0.0.1:6666":15, "slave@127.0.0.1:7777":15}
+time diff sent
+slave@127.0.0.1:8888 {"Master":45, "slave@127.0.0.1:6666":15, "slave@127.0.0.1:7777":15, "slave@127.0.0.1:8888":16}
+adjustment received from master
