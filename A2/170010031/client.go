@@ -50,7 +50,7 @@ func getTimeNow() string {
 
 func main() {
 	client, _ = rpc.DialHTTP("tcp", "127.0.0.1:1234")
-
+/*
 	// SET 1
 	// request 1
 	dt1 := getTimeNow()	
@@ -89,7 +89,6 @@ func main() {
 	log.Printf("Response5: Transaction Number - %v : %v", r5.TransNo, r5.Data)
 	log.Printf("Response6: Transaction Number - %v : %v", r6.TransNo, r6.Data)
 
-
 	// SET 4
 	// request 7
 	dt7 := getTimeNow()
@@ -97,8 +96,10 @@ func main() {
 	r7 := runDepositAmount(addmoney7, dt7)
 	time.Sleep(1 * time.Second)
 	log.Printf("Response7: Transaction Number - %v : %v", r7.TransNo, r7.Data)
+*/
+
 	// request 8
-	dt8 := "21-09-2020 20:18:02 Monday"
+	dt8 := "09-10-2020 14:59:36 Friday"
 	addmoney8 := 2500
 	r8 := runDepositAmount(addmoney8, dt8)
 	time.Sleep(1 * time.Second)
@@ -108,4 +109,6 @@ func main() {
 	time.Sleep(1 * time.Second)
 	log.Printf("Response8: Transaction Number - %v : %v", r8.TransNo, r8.Data)
 	log.Printf("Response9: Transaction Number - %v : %v", r9.TransNo, r9.Data)
+
+
 }

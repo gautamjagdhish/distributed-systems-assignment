@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: 1.5.0_16 (Apple Inc.)
+Built-By: jesse
+Build-Jdk: 1.5.0_16
+implementation-version: 6.1.14
+mode: development
+package: org.mortbay
+url: http://jetty.mortbay.org/project/jetty-util
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Import-Package: javax.servlet,javax.servlet.http,org.slf4j;resolution:
+ =optional
+Bnd-LastModified: 1226623752888
+Export-Package: org.mortbay.util;uses:="org.mortbay.log,org.mortbay.th
+ read";version="6.1.14",org.mortbay.log;uses:="org.mortbay.util,org.sl
+ f4j";version="6.1.14",org.mortbay.component;uses:="org.mortbay.util,o
+ rg.mortbay.log";version="6.1.14",org.mortbay.thread;uses:="org.mortba
+ y.log,org.mortbay.component";version="6.1.14",org.mortbay.servlet;use
+ s:="org.mortbay.log,org.mortbay.util,javax.servlet.http,javax.servlet
+ ,org.mortbay.util.ajax";version="6.1.14",org.mortbay.util.ajax;uses:=
+ "org.mortbay.log,org.mortbay.util,javax.servlet.http,javax.servlet";v
+ ersion="6.1.14"
+Bundle-Version: 6.1.14
+Ignore-Package: org.mortbay.log,org.mortbay.util,org.mortbay.component
+ ,org.mortbay.thread,org.mortbay.servlet,org.mortbay.util.ajax
+Bundle-RequiredExcutionEnvironment: J2SE-1.4
+Bundle-Name: Jetty Utilities
+Bundle-Description: Utility classes for Jetty
+Bundle-DocURL: http://jetty.mortbay.org
+Originally-Created-By: 1.5.0_16 (Apple Inc.)
+Bundle-Vendor: Mort Bay Consulting
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.mortbay.jetty.util
+Tool: Bnd-0.0.238
+

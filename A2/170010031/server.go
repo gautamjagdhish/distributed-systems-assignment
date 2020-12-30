@@ -6,7 +6,7 @@ import (
 	"net/rpc"
 	"os"
 	"io/ioutil"
-	// "time"
+	"time"
 	// "bufio"
 	"strconv"
 	"strings"
@@ -86,7 +86,7 @@ func (l *Listener) DepositAmount(args *Request, response *Response) error {
     _ = ioutil.WriteFile("Balance.txt", []byte(balbal), 0644)
 
 	// add delay
-	// time.Sleep(3 * time.Second)
+	time.Sleep(3 * time.Second)
 	
 	//Implement the logic add appropriate message and transaction number to response	
 	response.Data = "Your Amount is deposited into the account successfully"
